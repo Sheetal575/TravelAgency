@@ -8,12 +8,14 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import { FlexLayoutModule } from "@angular/flex-layout";
 import { HomeComponent } from './Components/home/home.component';
 import { HeaderComponent } from './Components/home/header/header.component';
+import { FooterComponent } from './Components/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    HeaderComponent
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
