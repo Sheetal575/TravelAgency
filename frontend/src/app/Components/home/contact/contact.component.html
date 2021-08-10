@@ -1,0 +1,56 @@
+<div fxLayout="row" class="display" fxLayout.xs="column">
+    <div fxFlex="60%"  fxLayoutAlign="center center">
+      <h1 fxLayoutAlign="center center">Feel Free to Contact Us</h1>
+    </div>
+    <div fxFlex="40%" class="contact_form">
+      <mat-card>
+          <form >
+            <div fxLayout="row" fxLayout.xs="column" fxLayoutAlign="center center" fxLayoutGap="10px">
+              <mat-form-field class="example-full-width" appearance="fill" fxFlex="46%" >
+                <mat-label>First name</mat-label>
+                <input matInput>
+              </mat-form-field>
+              <mat-form-field class="example-full-width" appearance="fill" fxFlex="46%">
+                <mat-label>Last name</mat-label>
+                <input matInput>
+              </mat-form-field>
+            </div>
+            <div fxLayout="row" fxLayout.xs="column" fxLayoutAlign="center center" fxLayoutGap="10px">
+              <mat-form-field class="example-full-width" appearance="fill" fxFlex="46%">
+                <mat-label>Email</mat-label>
+                <input type="email" matInput  placeholder="Ex. pat@example.com">
+              </mat-form-field>
+              <mat-form-field class="example-full-width" appearance="fill" fxFlex="46%">
+                <mat-label>Mobile Number</mat-label>
+                <input type="Number" matInput  placeholder="Ex. pat@example.com">
+              </mat-form-field>
+            </div>
+            <div fxLayout="row" fxLayout.xs="column" fxLayoutAlign="center center" fxLayoutGap="10px">
+              <mat-form-field class="example-full-width" appearance="fill" fxFlex="30%">
+                <mat-label>No. of Members</mat-label>
+                <input type="Number" matInput  >
+              </mat-form-field>
+              <mat-form-field class="example-full-width" appearance="fill" fxFlex="30%">
+                <mat-label>No. of Kids</mat-label>
+                <input type="Number" matInput  >
+              </mat-form-field>
+              <mat-form-field class="example-full-width" appearance="fill" fxFlex="30%">
+                <mat-label>No. of Adults</mat-label>
+                <input type="Number" matInput  >
+              </mat-form-field>
+            </div>
+            <div  fxLayout="row" fxLayout.xs="column" fxLayoutAlign="center center" >
+              <mat-form-field class="example-full-width" appearance="fill" fxFlex="93%">
+                <mat-label>Leave a comment</mat-label>
+                <textarea matInput placeholder="Ex. It makes me feel..."></textarea>
+              </mat-form-field>
+            </div>
+            <br>
+            <div fxLayout="row"  fxLayoutAlign="center center" fxLayoutGap="10px">
+              <button mat-raised-button>Send</button>
+            </div>
+          </form>
+      </mat-card>
+
+    </div>
+</div>

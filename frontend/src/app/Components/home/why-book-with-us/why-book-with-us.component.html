@@ -1,0 +1,25 @@
+<div fxLayout="row" fxLayout.xs="column">
+  <div fxFlex="40%" class="display" fxLayoutAlign="center center">
+    <h1>Why Book With Us</h1>
+  </div>
+  <div fxFlex="60%" fxLayoutAlign=" " fxLayout="row wrap" class="benefits">
+    <div fxFlex="40%" fxFlex.xs="100%" *ngFor="let point of points" fxLayout="row" fxLayout.xs="column" class="points">
+      <div>
+        <button mat-fab  class="button">
+          <mat-icon fxLayoutAlign="center center">done</mat-icon>
+        </button>
+      </div>
+      <div fxLayout="column" class="points_description">
+        <div >
+          <span class="heading">{{point.heading}}</span>
+        </div>
+        <br>
+        <div>
+          <span class="sub-heading ">{{point.subHeading}}</span>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</div>

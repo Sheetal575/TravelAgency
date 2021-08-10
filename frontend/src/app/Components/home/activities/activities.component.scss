@@ -1,0 +1,54 @@
+.activities_container{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+h1{
+  color: white;
+  font-size: 190%;
+  font-weight: 400;
+  text-decoration: underline;
+  text-decoration: underline;
+  text-decoration-color: #32b67a;
+}
+p{
+  color: white;
+}
+mat-card{
+  border-radius:10px 10px 10px 10px;
+  margin: 1%;
+  padding: 0%;
+  height: 390px;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 23px;
+  left: 29px;
+  color: white;
+  font-size: 130%;
+}
+img{
+  border-radius:10px 10px 10px 10px;
+  height: 100%;
+  width: 100%;
+}
+.activities{
+  padding : 4% 12% 4% 12%;
+
+}
+mat-card:hover{
+  background-color: rgba(0, 0, 0, 0.151);
+}
+button{
+  color: #32b67a;
+  border-color: #32b67a !important;
+  border-width: 1.5px;
+  font-size: larger;
+  padding-top: 3px;
+  padding-bottom: 3px;
+
+}
+button:hover{
+  background-color: #32b67a;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

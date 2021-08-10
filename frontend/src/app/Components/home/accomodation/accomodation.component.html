@@ -1,0 +1,17 @@
+<div fxLayout="column" fxLayoutAlign="center center" class="accomodation_container">
+  <div>
+    <h1>Places to Stay</h1>
+  </div>
+  <br>
+  <br>
+  <div fxLayout="row wrap" class="activities" fxLayout.xs="column"  fxLayoutAlign="center center">
+    <mat-card fxFlex="22%" fxFlex.sm="45%" fxFlex.md="45%" *ngFor="let accomodation of accomodations">
+      <img src="{{accomodation.img}}" alt="">
+    </mat-card>
+  </div>
+  <br>
+  <br>
+  <div>
+    <button mat-stroked-button >View All Accomodation</button>
+  </div>
+</div>
