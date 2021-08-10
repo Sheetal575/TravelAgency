@@ -1,0 +1,59 @@
+.display{
+  background: linear-gradient(rgba(35, 35, 36, 0.596), rgba(35, 35, 36, 0.589)), url("https://www.holidify.com/images/bgImages/KINNAUR.jpg");
+  background-size: 100%;
+  width: 100%;
+  height:auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  // padding: 5%;
+}
+h1{
+  font-size: 250%;
+  color: white;
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-color: #32b67a;
+}
+.benefits{
+  padding: 2%;
+  background-color: rgba(224, 224, 224, 0.11);
+}
+.heading{
+  font-size: 150%;
+  font-weight: 500;
+
+
+}
+.sub-heading{
+  color: grey;
+  font-size: 110%;
+  line-height: normal
+}
+.points{
+  margin:3%
+}
+.button{
+  background-color: white !important;
+  // border-color: #32b67a !important;
+  // border-width: 1px;
+  border: 2px solid #32b67a !important;
+  box-shadow: none !important;
+}
+.points_description{
+  margin-left:4%
+}
+mat-icon{
+  color: #32b67a;
+  font-size: 32px;
+  font-weight: 900;
+  text-align: center;
+  vertical-align: center;
+}
+
+
+
