@@ -15,6 +15,11 @@ import {MatCardModule} from '@angular/material/card';
 import { WhyBookWithUsComponent } from './Components/home/why-book-with-us/why-book-with-us.component';
 import {MatIconModule} from '@angular/material/icon';
 import { AccomodationComponent } from './Components/home/accomodation/accomodation.component';
+import { ContactComponent } from './Components/home/contact/contact.component';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material/input';
+import { PlacesComponent } from './Components/home/places/places.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +28,9 @@ import { AccomodationComponent } from './Components/home/accomodation/accomodati
     AboutComponent,
     ActivitiesComponent,
     WhyBookWithUsComponent,
-    AccomodationComponent
+    AccomodationComponent,
+    ContactComponent,
+    PlacesComponent
   ],
   imports: [
     BrowserModule,
@@ -33,7 +40,9 @@ import { AccomodationComponent } from './Components/home/accomodation/accomodati
     FlexLayoutModule,
     MatButtonModule,
     MatCardModule,
-    MatIconModule
+    MatIconModule,
+    MatFormFieldModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
