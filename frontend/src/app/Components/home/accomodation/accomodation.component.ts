@@ -9,19 +9,19 @@ export class AccomodationComponent implements OnInit {
  accomodations:any[]=[
    {
      img:"https://cdn1.goibibo.com/voy_ing/t_g/aa22f61ce0f411e9985e0242ac110004.jpg",
-     name:"jungle Inn",
+     category:"Premium Hotel",
    },
    {
     img:"https://cdn1.goibibo.com/voy_ing/t_g/aa22f61ce0f411e9985e0242ac110004.jpg",
-    name:"jungle Inn",
+    category:"Gold Hotel",
   },
   {
     img:"https://cdn1.goibibo.com/voy_ing/t_g/aa22f61ce0f411e9985e0242ac110004.jpg",
-    name:"jungle Inn",
+    category:"Normal Tents",
   },
   {
     img:"https://cdn1.goibibo.com/voy_ing/t_g/aa22f61ce0f411e9985e0242ac110004.jpg",
-    name:"jungle Inn",
+    category:"Commando Tents",
   }
  ]
   constructor() { }

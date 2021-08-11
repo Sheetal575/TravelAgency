@@ -5,8 +5,21 @@
   <br>
   <br>
   <div fxLayout="row wrap" class="activities" fxLayout.xs="column"  fxLayoutAlign="center center">
-    <mat-card fxFlex="22%" fxFlex.sm="45%" fxFlex.md="45%" *ngFor="let accomodation of accomodations">
+    <mat-card fxLayout="column"fxFlex="22%" fxFlex.sm="45%" fxFlex.md="45%" *ngFor="let accomodation of accomodations" fxLayoutAlign="center center">
       <img src="{{accomodation.img}}" alt="">
+      <br>
+      <div>
+        <span class="place_name">{{accomodation.category}}</span>
+      </div>
+      <br>
+      <div>
+        <mat-divider></mat-divider>
+      </div>
+      <br>
+      <div class="w-100" fxLayoutAlign="center center">
+        <button mat-stroke-button class="detail_button">View Detail</button>
+      </div>
+      <br>
     </mat-card>
   </div>
   <br>

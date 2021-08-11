@@ -10,18 +10,22 @@ export class PlacesComponent implements OnInit {
     {
       img:"https://cdn1.goibibo.com/voy_ing/t_g/aa22f61ce0f411e9985e0242ac110004.jpg",
       name:"jungle Inn",
+      distance:"23km",
     },
     {
      img:"https://cdn1.goibibo.com/voy_ing/t_g/aa22f61ce0f411e9985e0242ac110004.jpg",
      name:"jungle Inn",
+     distance:"23km",
    },
    {
      img:"https://cdn1.goibibo.com/voy_ing/t_g/aa22f61ce0f411e9985e0242ac110004.jpg",
      name:"jungle Inn",
+     distance:"23km",
    },
    {
      img:"https://cdn1.goibibo.com/voy_ing/t_g/aa22f61ce0f411e9985e0242ac110004.jpg",
      name:"jungle Inn",
+     distance:"23km",
    }
   ]
   constructor() { }
