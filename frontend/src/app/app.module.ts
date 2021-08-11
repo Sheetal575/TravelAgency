@@ -21,6 +21,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 import { PlacesComponent } from './Components/home/places/places.component';
 import {MatDividerModule} from '@angular/material/divider';
+import { ToolbarComponent } from './Components/toolbar/toolbar.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,6 +34,7 @@ import {MatDividerModule} from '@angular/material/divider';
     AccomodationComponent,
     ContactComponent,
     PlacesComponent,
+    ToolbarComponent,
   ],
   imports: [
     BrowserModule,
