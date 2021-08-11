@@ -63,3 +63,10 @@ mat-divider{
 
     border-color: rgba(128, 128, 128, 0.404);
 }
+@media screen and (max-width: 500px) {
+  h1{
+    font-size: 25px;
+    margin-bottom: 8%;
+    margin-top:7%
+  }
+}
