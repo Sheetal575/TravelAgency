@@ -9,13 +9,15 @@ import { FlexLayoutModule } from "@angular/flex-layout";
 import { HomeComponent } from './Components/home/home.component';
 import { HeaderComponent } from './Components/home/header/header.component';
 import { FooterComponent } from './Components/footer/footer.component';
+import { FootComponent } from './Components/foot/foot.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    FootComponent
   ],
   imports: [
     BrowserModule,

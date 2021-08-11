@@ -21,7 +21,6 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 import { PlacesComponent } from './Components/home/places/places.component';
 import {MatDividerModule} from '@angular/material/divider';
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,7 +32,7 @@ import {MatDividerModule} from '@angular/material/divider';
     WhyBookWithUsComponent,
     AccomodationComponent,
     ContactComponent,
-    PlacesComponent
+    PlacesComponent,
   ],
   imports: [
     BrowserModule,
