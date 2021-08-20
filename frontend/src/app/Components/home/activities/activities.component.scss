@@ -1,8 +1,8 @@
-.activities_container{
+.activities_container {
   padding-top: 5%;
   padding-bottom: 5%;
 }
-h1{
+h1 {
   color: white;
   font-size: 190%;
   font-weight: 400;
@@ -10,11 +10,11 @@ h1{
   text-decoration: underline;
   text-decoration-color: #32b67a;
 }
-p{
+p {
   color: white;
 }
-mat-card{
-  border-radius:10px 10px 10px 10px;
+mat-card {
+  border-radius: 10px 10px 10px 10px;
   margin: 1%;
   padding: 0%;
   height: 390px;
@@ -26,33 +26,31 @@ mat-card{
   color: white;
   font-size: 130%;
 }
-img{
-  border-radius:10px 10px 10px 10px;
+img {
+  border-radius: 10px 10px 10px 10px;
   height: 100%;
   width: 100%;
 }
-.activities{
-  padding : 4% 12% 4% 12%;
-
+.activities {
+  padding: 4% 12% 4% 12%;
 }
-mat-card:hover{
+mat-card:hover {
   background-color: rgba(0, 0, 0, 0.151);
 }
-button{
+button {
   color: #32b67a;
   border-color: #32b67a !important;
   border-width: 1.5px;
   font-size: larger;
   padding-top: 3px;
   padding-bottom: 3px;
-
 }
-button:hover{
+button:hover {
   background-color: #32b67a;
   color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.activities_container{
+.activities_container {
   background: linear-gradient(rgba(35, 35, 36, 0.596), rgba(35, 35, 36, 0.589)),
     url("https://www.holidify.com/images/bgImages/KINNAUR.jpg");
   background-size: 100%;

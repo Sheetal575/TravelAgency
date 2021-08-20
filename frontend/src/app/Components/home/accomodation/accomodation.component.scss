@@ -1,4 +1,4 @@
-h1{
+h1 {
   color: white;
   font-size: 210%;
   font-weight: 500;
@@ -6,38 +6,37 @@ h1{
   text-decoration: underline;
   text-decoration-color: white;
 }
-.accomodation_container{
-  padding : 4% 12% 4% 12%;
+.accomodation_container {
+  padding: 4% 12% 4% 12%;
   background-color: #32b67b;
 }
-mat-card{
-  border-radius:10px 10px 10px 10px;
+mat-card {
+  border-radius: 10px 10px 10px 10px;
   margin: 1%;
   padding: 0%;
   height: 430px;
-  margin-bottom:5%
+  margin-bottom: 5%;
 }
 
-img{
-  border-radius:10px 10px 0px 0px;
-  height:70%;
+img {
+  border-radius: 10px 10px 0px 0px;
+  height: 70%;
   width: 100%;
 }
-button{
+button {
   color: white;
   border-color: white !important;
   border-width: 1.5px;
   font-size: larger;
   padding-top: 3px;
   padding-bottom: 3px;
-
 }
-button:hover{
+button:hover {
   background-color: white;
   color: #32b67a;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.detail_button{
+.detail_button {
   color: #32b67a;
   border-color: #32b67a !important;
   background-color: white;
@@ -49,23 +48,23 @@ button:hover{
 
   width: 50%;
 }
-.place_name{
+.place_name {
   font-size: 187%;
   font-weight: 500;
 }
-.place_distance{
+.place_distance {
   color: #32b67a;
 }
-mat-divider{
-    border-width: 0.2px !important;
+mat-divider {
+  border-width: 0.2px !important;
 
-    border-color: rgba(128, 128, 128, 0.404);
+  border-color: rgba(128, 128, 128, 0.404);
 }
-.detail_button:hover{
+.detail_button:hover {
   background-color: #32b67a;
   color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-button:focus{
+button:focus {
   outline: none;
 }
