@@ -1,18 +1,18 @@
-<div class="activities_container" fxLayout="column" fxLayoutAlign="center center">
-  <div>
-    <h1>Adventure Activities</h1>
-  </div>
-  <!-- <div style="width: 50%;">
-    <p>This is the best place to tell your visitors what travel services your company provide. You can modify this section from Appearance > Customize > Home Page Settings > Adventure Activities Section on your WordPress.</p>
-  </div> -->
-  <div fxLayout="row wrap" class="activities" fxLayout.xs="column"  fxLayoutAlign="center center">
-    <mat-card fxFlex="22%" fxFlex.sm="45%" fxFlex.md="45%" *ngFor="let activity of activites">
-        <img  src={{activity.img}} >
-        <div class="bottom-left">{{activity.name}}</div>
-    </mat-card>
+<div class="activities_container" >
+  <div fxLayout="column" fxLayoutAlign="center center" class="activity_zone">
+    <div>
+      <h1>Adventure Activities</h1>
+    </div>
+    <div fxLayout="row wrap" class="activities" fxLayout.xs="column"  fxLayoutAlign="center center">
+      <mat-card fxFlex="22%" fxFlex.sm="45%" fxFlex.md="45%" *ngFor="let activity of activites">
+          <img  src={{activity.img}} >
+          <div class="bottom-left">{{activity.name}}</div>
+      </mat-card>
+    </div>
   </div>
   <br>
-  <div>
+  <br>
+  <div fxLayoutAlign="center center">
     <button mat-stroked-button >View All Activites</button>
   </div>
   <br>
