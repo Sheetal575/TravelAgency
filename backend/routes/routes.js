@@ -1,4 +1,4 @@
-const express = require('express')
+ const express = require('express')
 const router = express.Router()
 const destController = require('../controllers/destinations')
 const actController = require('../controllers/activities')
