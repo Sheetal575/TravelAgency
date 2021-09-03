@@ -22,6 +22,7 @@ import {MatInputModule} from '@angular/material/input';
 import { PlacesComponent } from './Components/home/places/places.component';
 import {MatDividerModule} from '@angular/material/divider';
 import { ToolbarComponent } from './Components/toolbar/toolbar.component';
+import { PlacesDetailsComponent } from './Components/home/places/places-details/places-details.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,6 +36,7 @@ import { ToolbarComponent } from './Components/toolbar/toolbar.component';
     ContactComponent,
     PlacesComponent,
     ToolbarComponent,
+    PlacesDetailsComponent,
   ],
   imports: [
     BrowserModule,
