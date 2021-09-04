@@ -6,7 +6,7 @@
     <div fxLayout="row wrap" class="activities" fxLayout.xs="column"  fxLayoutAlign="center center">
       <mat-card fxFlex="22%" fxFlex.sm="45%" fxFlex.md="45%" *ngFor="let activity of activites">
           <img  src={{activity.img}} >
-          <div class="bottom-left">{{activity.name}}</div>
+          <div class="bottom-left"><strong>{{activity.name}}</strong></div>
       </mat-card>
     </div>
   </div>

@@ -8,19 +8,19 @@ import { Component, OnInit } from '@angular/core';
 export class ActivitiesComponent implements OnInit {
   activites:any[]=[
     {
-      img:"https://img.etimg.com/thumb/msid-77781988,width-640,resizemode-4,imgsize-169358/setting-a-record.jpg",
+      img:"https://res.cloudinary.com/doy011exw/image/upload/v1630146547/activities/Rafting/rafting_2_qkizsn.jpg",
       name:"White Water Rafting"
     },
     {
-      img:"https://img.etimg.com/thumb/msid-77781988,width-640,resizemode-4,imgsize-169358/setting-a-record.jpg",
+      img:"https://res.cloudinary.com/doy011exw/image/upload/v1630146317/activities/Jungle%20Stay/jungle_stay_2_dpn5ks.jpg",
       name:"JUNGLE STAY"
     },
     {
-      img:"https://img.etimg.com/thumb/msid-77781988,width-640,resizemode-4,imgsize-169358/setting-a-record.jpg",
+      img:"https://res.cloudinary.com/doy011exw/image/upload/v1630146629/activities/Rock%20Climbing/rock_climbing_2_kiqkfu.jpg",
       name:"ROCK CLIMBING"
     },
     {
-      img:"https://img.etimg.com/thumb/msid-77781988,width-640,resizemode-4,imgsize-169358/setting-a-record.jpg",
+      img:"https://res.cloudinary.com/doy011exw/image/upload/v1630146725/activities/Zipline/Zipline_vhe6ix.webp",
       name:"ZIPLINE"
     }
   ]
