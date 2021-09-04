@@ -3,7 +3,7 @@ require('dotenv').config()
 const express = require('express')
 const bodyParser = require('body-parser')
 const multer = require('multer')
-// const route = require('./routes/routes')
+const route = require('./routes/routes')
 
 const { mongoConnect } = require('./utils/database')
 
@@ -35,7 +35,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(
   multer({ storage: fileStorage, fileFilter: fileFilter }).single('image')
 )
-// app.use(route)
+app.use(route)
 app.get('/',(req,res) => {
     console.log("chl rha h");
     res.send("we are on home")
@@ -43,4 +43,5 @@ app.get('/',(req,res) => {
 
 mongoConnect(() => {
   app.listen(process.env.PORT ||3000)
+  console.log(`${process.env.PORT}`)
 })

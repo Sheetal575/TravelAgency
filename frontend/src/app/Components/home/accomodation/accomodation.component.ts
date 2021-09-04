@@ -8,19 +8,19 @@ import { Component, OnInit } from '@angular/core';
 export class AccomodationComponent implements OnInit {
  accomodations:any[]=[
    {
-     img:"https://cdn1.goibibo.com/voy_ing/t_g/aa22f61ce0f411e9985e0242ac110004.jpg",
+     img:"https://res.cloudinary.com/doy011exw/image/upload/v1630154653/hotels/Premium/images_40_ovjxez.jpg",
      category:"Premium Hotel",
    },
    {
-    img:"https://cdn1.goibibo.com/voy_ing/t_g/aa22f61ce0f411e9985e0242ac110004.jpg",
+    img:"https://res.cloudinary.com/doy011exw/image/upload/v1630154619/hotels/Gold/images_87_ljoob8.jpg",
     category:"Gold Hotel",
   },
   {
-    img:"https://cdn1.goibibo.com/voy_ing/t_g/aa22f61ce0f411e9985e0242ac110004.jpg",
+    img:"https://res.cloudinary.com/doy011exw/image/upload/v1630154792/tents/Normal%20tents/images_50_sevmoq.jpg",
     category:"Normal Tents",
   },
   {
-    img:"https://cdn1.goibibo.com/voy_ing/t_g/aa22f61ce0f411e9985e0242ac110004.jpg",
+    img:"https://res.cloudinary.com/doy011exw/image/upload/v1630154726/tents/Commando%20tents/images_10__1620992069330_c0p7ar.jpg",
     category:"Commando Tents",
   }
  ]
