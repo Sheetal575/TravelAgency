@@ -1,22 +1,21 @@
-.header{
+.header {
   padding-top: 1%;
   padding-bottom: 1%;
   height: 100vh;
   width: 100vw;
   background: black;
   overflow: hidden;
-  background: #C33764;  /* fallback colour. Make sure this is just one solid colour. */
-  background: linear-gradient(rgba(35, 35, 36, 0.596), rgba(35, 35, 36, 0.589)), url("https://www.clubmahindra.com/blog/media/section_images/travelling-d66053466e4ec7c.jpg"); /* The least supported option. */
+  background: #c33764; /* fallback colour. Make sure this is just one solid colour. */
+  background: linear-gradient(rgba(35, 35, 36, 0.596), rgba(35, 35, 36, 0.589)),
+    url("https://www.clubmahindra.com/blog/media/section_images/travelling-d66053466e4ec7c.jpg"); /* The least supported option. */
   background-size: cover;
-
 }
 
 img {
- object-fit: cover;
+  object-fit: cover;
 }
-mat-toolbar{
+mat-toolbar {
   background-color: transparent;
-
 }
 ul {
   list-style-type: none;
@@ -32,23 +31,22 @@ li {
   color: white;
   cursor: pointer;
 }
-.display_block{
+.display_block {
   width: 70%;
   height: 100%;
   padding-left: 7%;
-  padding-top:13%;
-  padding-right:7%;
-
+  padding-top: 13%;
+  padding-right: 7%;
 }
-h1{
+h1 {
   color: white;
   font-size: 50px;
   font-weight: 400;
-  font-family: 'Aclonica', sans-serif;
+  font-family: "Aclonica", sans-serif;
   padding: 0% !important;
 }
-button{
-  color:black;
+button {
+  color: black;
   border-width: 1.5px;
   font-size: larger;
   padding-top: 9px;
@@ -56,18 +54,35 @@ button{
   padding-left: 23px;
   padding-right: 23px;
   background-color: white;
-
 }
-p{
+p {
   color: white;
   font-size: 120%;
 }
-button:hover{
+button:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-span{
+span {
   text-decoration: underline;
   text-decoration-color: #32b67a;
 }
 
+a {
+  background-color: white;
+  color: black;
+  padding: 1em 1.5em;
+  text-decoration: rgba(0, 0, 0, 0.19);
+  text-transform: uppercase;
+}
 
+a:hover {
+  background-color: #555;
+}
+
+a:active {
+  background-color: black;
+}
+
+a:visited {
+  background-color: #ccc;
+}
