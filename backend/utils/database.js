@@ -1,5 +1,6 @@
 const mongodb = require('mongodb')
-const MongoClient = mongodb.MongoClient
+const MongoClient = require('mongodb').MongoClient
+require('dotenv').config()
 
 let _db
 const mongoConnect = (callback) => {
